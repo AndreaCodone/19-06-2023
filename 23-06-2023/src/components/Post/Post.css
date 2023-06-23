@@ -1,0 +1,95 @@
+.PostTop {
+  position: relative;
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+}
+
+.PostTop__User {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.User__Image {
+  width: 32px;
+  height: 32px;
+  border-radius: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.User__Image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.User__Username {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 13px;
+  padding: 0px 12px;
+}
+
+.User__Location {
+  margin: 0;
+  padding: 0;
+  font-size: 11px;
+  padding: 0px 12px;
+}
+
+.PostContent {
+  position: relative;
+  width: 100%;
+}
+
+.PostContent .swiper-slide {
+  height: 375px;
+}
+
+.PostContent img {
+  width: 100%;
+  height: auto;
+}
+
+.PostActions {
+  display: flex;
+  position: relative;
+  padding: 12px;
+  align-items: center;
+  gap: 18px;
+}
+
+.PostActions__Like,
+.PostActions__Comment,
+.PostActions__Messanger,
+.PostActions__Settings,
+.PostActions__Save {
+  cursor: pointer;
+}
+
+.PostActions__Save {
+  position: absolute;
+  left: 97%;
+  top: 30%;
+}
+
+.User__Like {
+  font-weight: bold;
+  font-size: 13px;
+  padding: 1px 12px;
+}
+
+.PostActions__Settings {
+  display: flex;
+  position: relative;
+  align-items: center;
+  text-align: center;
+}
